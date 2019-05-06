@@ -1,0 +1,11 @@
+MANIFEST_REPO=https://android.googlesource.com/platform/manifest
+MANIFEST_BRANCH=master
+MAKE_JOBS=16
+MAKE_TARGETS="dist"
+MANIFEST_FILENAME=default.xml
+LUNCH=hikey960-userdebug
+TARGET_PRODUCT=hikey960
+TARGET_SIMULATOR=false
+USE_CLANG_PLATFORM_BUILD=true
+SOURCE_OVERLAY="members-only/20131022/build-info.tar.bz2"
+SKIP_LICENSE_CHECK=1
